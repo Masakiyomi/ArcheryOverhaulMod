@@ -1,0 +1,18 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[41,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="GNU GPLv3"
+
+
+[[mods]] #mandatory
+modId="archeryoverhaulmod" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Archery Overhaul Mod" #mandatory
+logoFile="logo.png" #optional
+credits="Mojang - the game; Will Bowmaker - consultations on bow woods;" #optional
+authors="Masakiyomi" #optional
+
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Main purpose of this mod is to overhaul the experience of fletchery, bowmaking and archery in the world of Minecraft.
+New arrows, bows, blocks and mechanics while remaining true to the main theme and feeling of the game.'''
